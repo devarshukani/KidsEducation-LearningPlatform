@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<com.vm.design.wallpaper.materialwallpaper.helper.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    >-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgCategory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/txtCatID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Hello"
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:textColor="#fdfcfc" />
+
+    <TextView
+        android:id="@+id/txtCatName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imgCategory"
+        android:layout_marginBottom="3dp"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:background="@drawable/btn_rounded_corner"
+        android:text="Hello"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:textColor="@color/primary_text" />
+
+</RelativeLayout>
+
+<!--</com.vm.design.wallpaper.materialwallpaper.helper.SquareLayout>-->
